@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="146.999"
+   height="43.598"
+   viewBox="0 0 146.999 43.598"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="new.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="2.7611025"
+     inkscape:cx="47.497495"
+     inkscape:cy="28.984749"
+     inkscape:window-x="0"
+     inkscape:window-y="132"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg22" />
+  <defs
+     id="defs13">
+    <filter
+       id="Path_107"
+       x="0"
+       y="0"
+       width="146.999"
+       height="41.445"
+       filterUnits="userSpaceOnUse">
+      <feOffset
+         dy="2"
+         input="SourceAlpha"
+         id="feOffset2" />
+      <feGaussianBlur
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur4" />
+      <feFlood
+         flood-opacity="0.161"
+         id="feFlood6" />
+      <feComposite
+         operator="in"
+         in2="blur"
+         id="feComposite8"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite10" />
+    </filter>
+  </defs>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="matrix(-1,0,0,1,177.99899,1)"
+     style="fill:#ffcb2f">
+    <g
+       id="Слой_1"
+       data-name="Слой 1"
+       transform="translate(34)"
+       style="fill:#ffcb2f">
+      <rect
+         id="Rectangle_398"
+         data-name="Rectangle 398"
+         width="5.0770001"
+         height="8.9300003"
+         transform="translate(135.923,30.091)"
+         fill="#e6ca69"
+         x="0"
+         y="0"
+         style="fill:#ffcb2f" />
+      <path
+         id="Path_106"
+         data-name="Path 106"
+         d="m 1448.338,3.577 v 0 a 3.577,3.577 0 0 1 -3.578,3.577 h -1.5 V 0 h 1.5 a 3.577,3.577 0 0 1 3.578,3.577 z"
+         transform="translate(-1307.339,35.444)"
+         fill="#cca54d"
+         style="fill:#ffcb2f" />
+      <g
+         transform="translate(-3,-1)"
+         filter="url(#Path_107)"
+         id="g18"
+         style="fill:#ffcb2f">
+        <path
+           id="Path_107-2"
+           data-name="Path 107"
+           d="M 141.019,96.194 V 64.442 c 0,-2.041 -1.334,-3.694 -2.978,-3.692 H 1.509 a 1.507,1.507 0 0 0 -1.354,1.083 2.2,2.2 0 0 0 0.236,1.978 L 8.841,75.8 a 4.818,4.818 0 0 1 0,5.346 L 0.391,93.134 A 2.2,2.2 0 0 0 0.154,95.113 1.505,1.505 0 0 0 1.509,96.2 Z"
+           transform="translate(2.98,-59.75)"
+           fill="#e6ca69"
+           style="fill:#ffcb2f" />
+      </g>
+    </g>
+  </g>
+</svg>

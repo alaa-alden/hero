@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1353.77" height="507.121" viewBox="0 0 1353.77 507.121">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-1.146" y1="1.944" x2="-1.146" y2="3.595" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1af57"/>
+      <stop offset="0.17" stop-color="#d4b35a"/>
+      <stop offset="0.35" stop-color="#e6ca69"/>
+      <stop offset="0.5" stop-color="#e6ca69"/>
+      <stop offset="0.65" stop-color="#e6ca69"/>
+      <stop offset="0.83" stop-color="#e6ca69"/>
+      <stop offset="1" stop-color="#d1af57"/>
+    </linearGradient>
+    <filter id="Path_116" x="275.402" y="238.806" width="509.898" height="268.315" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-1.251" y1="2.402" x2="-1.407" y2="3.883" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cca54d"/>
+      <stop offset="0.12" stop-color="#c19845"/>
+      <stop offset="0.31" stop-color="#d3b058"/>
+      <stop offset="0.5" stop-color="#ead070"/>
+      <stop offset="0.69" stop-color="#d3b058"/>
+      <stop offset="0.88" stop-color="#c19845"/>
+      <stop offset="1" stop-color="#bb8f3e"/>
+    </linearGradient>
+    <filter id="Path_117" x="0" y="242.873" width="447.198" height="194.558" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.215" y1="0.963" x2="0.893" y2="0.027" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bb8f3e"/>
+      <stop offset="0.12" stop-color="#c19845"/>
+      <stop offset="0.31" stop-color="#d3b058"/>
+      <stop offset="0.5" stop-color="#ead070"/>
+      <stop offset="0.69" stop-color="#d3b058"/>
+      <stop offset="0.88" stop-color="#c19845"/>
+      <stop offset="1" stop-color="#bb8f3e"/>
+    </linearGradient>
+    <filter id="Path_118" x="591.555" y="0" width="762.215" height="501.869" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2" transform="translate(3.248 79.369) rotate(-3)">
+    <g id="Layer_1" data-name="Layer 1">
+      <g transform="matrix(1, 0.05, -0.05, 1, 0.91, -79.43)" filter="url(#Path_116)">
+        <path id="Path_116-2" data-name="Path 116" d="M421.408,203C297.564,96.321,190.182,68.078,109.28,90.154c52.458,17.62,110.252,51.35,172.148,104.689,78.46,67.586,191.3,123.618,300.045,99.528C521.666,275.971,466.012,241.334,421.408,203Z" transform="translate(175.42 196.69) rotate(-3)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0.05, -0.05, 1, 0.91, -79.43)" filter="url(#Path_117)">
+        <path id="Path_117-2" data-name="Path 117" d="M163.112,84.611C87.245,93.7,30.659,143.714,0,215.831l140.105,8.13C196.741,90.552,294.482,82.27,413.116,106.561,310.794,67.167,207.036,77.412,163.112,84.611Z" transform="translate(9.43 197.28) rotate(-3)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0.05, -0.05, 1, 0.91, -79.43)" filter="url(#Path_118)">
+        <path id="Path_118-2" data-name="Path 118" d="M952.672,0a493.083,493.083,0,0,0-75.339,11.654C747.4,38.815,668.661,179.448,597.526,286.352c-58.272,87.6-147.279,119.49-213.606,134.19a341.678,341.678,0,0,1-144.51-8.533c29.35-5.613,306.011,124.423,470.709-148.336C760.16,180.782,831.37,76.824,935.933,50.041A226.869,226.869,0,0,1,949.324,7.375C950.356,4.858,951.514,2.517,952.672,0Z" transform="translate(365.97 60.36) rotate(-3)" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

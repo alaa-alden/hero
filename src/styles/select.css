@@ -1,0 +1,99 @@
+.select-box {
+  user-select: none;
+  direction: ltr;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.select-box .options-container {
+  z-index: 100;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background: #fff;
+  color: #f5f6fa;
+  font-style: italic;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.selected {
+  padding: 5% 5%;
+  cursor: pointer;
+  background: #f0efed;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  color: #f2ae2e;
+  font-weight: bold;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 28%);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  order: 0;
+}
+.selected{
+  display: flex;
+}
+.selected div{
+  flex:1;
+  display: inline-block;
+}
+.selected span {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%23f2ae2e' d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z' /%3E%3Cpath fill='none' d='M0 0h24v24H0V0z' /%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 10%;
+  transition: all 0.4s;
+  justify-self:flex-end;
+}
+
+.select-box .options-container.active {
+  max-height: 250%;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.select-box .options-container.active + .selected span {
+  transform: rotateX(180deg);
+  /* top: -15%; */
+}
+.select-box .options-container::-webkit-scrollbar {
+  width: 8px;
+  background: #f2ae2e;
+  border-radius: 0 8px 8px 0;
+  /* position: absolute; */
+  /* right: 0; */
+}
+.select-box .options-container::-webkit-scrollbar-thumb {
+  background: #656a72;
+  border-radius: 0 8px 8px 0;
+}
+.select-box label {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: #f2ae2e;
+  padding: 5% 5%;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.select-box label:hover {
+  /* color:#f2ae2e; */
+  background: #f0efed;
+}
+.select-box .option .radio {
+  display: none;
+}

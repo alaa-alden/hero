@@ -1,0 +1,227 @@
+@media (max-width: 768px) {
+    .brands {
+        padding: 0;
+        margin: 0;
+    }
+    .main-footer,
+    .copy,
+    .scan,
+    .wrapping,
+    .coupon,
+    .tabs-sec {
+        width: 100%;
+        margin-right: unset;
+        margin-left: unset;
+    }
+
+    .top-text {
+        text-align: center !important;
+    }
+    .add {
+        line-height: unset;
+        font-size: 13px;
+    }
+    .left-arrow-client {
+        left: -26px !important;
+        width: 20px;
+        height: 20px;
+    }
+    .right-arrow-client {
+        right: -26px !important;
+        width: 20px;
+        height: 20px;
+    }
+    .filter-wrap .d-flex {
+        justify-content: center;
+    }
+    .coupon-item {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .d-flex .new-wrap {
+        margin-bottom: 16px;
+    }
+    .filter::before {
+        top: -86%;
+        left: -30%;
+    }
+    .new {
+        position: absolute;
+        bottom: -26px;
+        right: -6px;
+        text-align: center;
+        background-image: url(../img/new.svg);
+        background-size: 100% 100%;
+        color: #fff;
+        width: 80px;
+        background-repeat: no-repeat;
+        height: 52px;
+        font-size: 16px;
+        padding-top: 11px;
+        border-radius: 20px;
+    }
+
+    .d-flex .new-wrap:first-child {
+        margin-right: 0;
+    }
+    .new-just {
+        text-align: left !important;
+    }
+    .price {
+        font-size: 16px;
+    }
+    .new-just .saved {
+        margin-right: auto;
+        margin-left: unset;
+    }
+    .min-max input {
+        width: 100px !important;
+    }
+    .line {
+        width: 50px;
+    }
+    .items li {
+        text-align: center !important;
+    }
+    .items {
+        display: flex;
+    }
+    .items li img {
+        position: relative;
+        z-index: 2;
+        width: 70px;
+    }
+    .logo {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .right-links {
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .items li::before {
+        background-position-x: 50%;
+        width: 100%;
+    }
+    .slider {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    .icon-wrap {
+        margin: 20px auto;
+    }
+    .best-image {
+        margin: 20px 0;
+    }
+    .slider-text p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 991px) {
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .items li::before {
+        background-position-x: 50%;
+    }
+    .add {
+        font-size: 13px;
+    }
+    .top-text img {
+        width: 100%;
+    }
+    .top-slider {
+        background-position-x: 60%;
+    }
+    .review button {
+        font-size: 12px;
+    }
+    .search-min input[type="search"] {
+        width: 0;
+        padding: 7px 5px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        opacity: 0;
+        border: none;
+        outline: none;
+        box-shadow: 0 0 4px 0 #60a3d9aa;
+        border-radius: 50px;
+    }
+    .width {
+        width: 100% !important;
+        opacity: 1 !important;
+    }
+    /* When the input field gets focus, change its width to 100% */
+    .filter {
+        width: 100%;
+    }
+    .brand-search {
+        width: 114px;
+    }
+    .min-max input {
+        width: 40px;
+    }
+}
+@media (max-width: 450px) {
+    .wrap .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .wrap .d-flex img {
+        margin: 0 auto;
+    }
+    .check-ul li {
+        font-size: 12px;
+    }
+    .count-ul {
+        flex-direction: row !important;
+    }
+    .tab button {
+        font-size: 12px;
+        padding: 14px 9px;
+    }
+    .tab button img {
+        width: 14px !important;
+    }
+}
+@media (max-width : 425px){
+     .filter::before {
+         display: none;
+     }
+     
+}
+@media (max-width: 1200px) and (min-width: 768px) {
+    .flex-item {
+        flex-direction: column;
+    }
+}
+@media (max-width: 800px) {
+    .scrollmagic-pin-spacer {
+        padding-bottom: 0 !important;
+    }
+}
+@media (max-width: 1200px) {
+    .nav-link {
+        font-size: 12px;
+    }
+    
+}
+@media (max-width: 575px) {
+    .prices {
+        justify-content: flex-start !important;
+        margin: 10px 0;
+    }
+    .line {
+        display: none;
+    }
+    .add-margin {
+        margin-top: 10px;
+    }
+}
+@media (min-width:1200px){
+    .filter::before {
+         top: -95% !important;
+     }
+}
